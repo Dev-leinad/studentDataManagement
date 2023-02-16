@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    position: relative;
+    color: #000300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+/* Header section styling  */
+header{
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background-color: #cc3e2e;
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logoBrand{
+    margin-left: 6rem ;
+}
+
+header nav {
+    margin-right: 6rem;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    margin:0  12px;
+    list-style-type: none;
+}
+
+.row    {
+    position: relative;
+    width: 85%;
+    margin:20px auto;
+    display: flex;
+    align-items: center;
+    background-color: #c1c1c1;
+    border-radius: 4px;
+}
+
+/* Profile component styling */
+
+.profile-card{
+flex-basis: 24%;
+/* width: 30%; */
+    border: 1px solid ;
+    padding: 8px;
+    margin: 20px;
+    flex-wrap: nowrap;
+}
+.profile-card .imgCard {
+    width: 100%;
+    padding:2px;
+    height: 200px;
+    border: 1px solid red ;
+}
+
+.profile-card .profileDetails{
+    padding: 20px 6px;
+}
+
+.profile-card .profileDetails p{
+    margin-top: 6px ;
+    font-size: 15px;
+    font-weight: 600;
 }
