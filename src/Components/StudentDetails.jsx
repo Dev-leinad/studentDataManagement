@@ -5,28 +5,28 @@ import Scores, { datas } from './Scores'
 
 
 
-const StudentScores = (props) => {
+// const StudentScores = (props) => {
 
   
-  const {data} =props;
+//   const {data} =props;
   
-  // const renderTableData =()=>{
+//   // const renderTableData =()=>{
    
-  //   if (data.length !==0){ 
-  //     data?.map((items, index)=>{
+//   //   if (data.length !==0){ 
+//   //     data?.map((items, index)=>{
 
-  //       console.log(items)
-  //       return  (
-  //       <th>{items.fullName}s</th>
+//   //       console.log(items)
+//   //       return  (
+//   //       <th>{items.fullName}s</th>
        
-  //     )
+//   //     )
 
-  //     })
+//   //     })
      
-  //   }
-  // }
+//   //   }
+//   // }
 
-}
+// }
 
 const StudentDetails = () => {
     
@@ -37,10 +37,10 @@ const StudentDetails = () => {
     <div>
 
   {datas.map((value, index)=>{
-      return (  <div className="row">
+      return (  <div className="row" key={index}>
         <div className="profile-card">
         <div className="imgCard">
-            <img src="#" alt="#" />
+            <img src={value.image} alt="#" />
 
         </div>
         <div className="profileDetails">
@@ -57,8 +57,12 @@ const StudentDetails = () => {
        <table >
   <thead>
     <tr>
-      <th>Month</th>
-      <th>Savings</th>
+      <th>Week 1</th>
+      <th>Week 2</th>
+      <th>Week 3</th>
+      <th>Week 4</th>
+      <th>Week 5</th>
+      <th>Week 6</th>
     </tr>
   </thead>
   <tbody>

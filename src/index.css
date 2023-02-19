@@ -66,10 +66,12 @@ flex-basis: 24%;
     flex-wrap: nowrap;
 }
 .profile-card .imgCard {
-    width: 100%;
+    width: 100px;
     padding:2px;
-    height: 200px;
+    height: 100px;
+    margin: auto;
     border: 1px solid red ;
+    border-radius: 50%;
 }
 
 .profile-card .profileDetails{
@@ -81,3 +83,11 @@ flex-basis: 24%;
     font-size: 15px;
     font-weight: 600;
 }
+table {
+    width:100%;
+     color:white;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
