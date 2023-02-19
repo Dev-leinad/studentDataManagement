@@ -1,5 +1,3 @@
-import React from "react";
-
 
 
 
@@ -7,7 +5,7 @@ export  const datas = [
     {
         fullName: 'Fred Chan',
         path : 'Frontend ',
-        image :'gfhj' ,
+        image :'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlJTIwcHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' ,
         Dob : '23-01-1998',
         scores :{
             week1 : 23,
@@ -22,7 +20,7 @@ export  const datas = [
     {
         fullName: 'Daniel',
         path : 'Frontend ',
-        image :'gfhj' ,
+        image :'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlJTIwcHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' ,
         Dob : '23-01-1998',
         scores :{
             week1 : 23,
@@ -37,7 +35,7 @@ export  const datas = [
     {
         fullName: 'Cherry Stan',
         path : 'Frontend ',
-        image :'gfhj' ,
+        image :'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlJTIwcHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' ,
         Dob : '23-01-1998',
         scores :{
             week1 : 23,
@@ -52,7 +50,7 @@ export  const datas = [
     {
         fullName: 'Cherry Stan',
         path : 'Frontend ',
-        image :'gfhj' ,
+        image :'https://images.unsplash.com/photo-1581403341630-a6e0b9d2d257?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGVvcGxlJTIwcHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' ,
         Dob : '23-01-1998',
         scores :{
             week1 : 23,
@@ -67,7 +65,7 @@ export  const datas = [
     {
         fullName: 'Cherry Stan',
         path : 'Web 3 ',
-        image :'https://unsplash.com/photos/mEZ3PoFGs_k' ,
+        image :'https://images.unsplash.com/photo-1581403341630-a6e0b9d2d257?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGVvcGxlJTIwcHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' ,
         Dob : '23-01-1998',
         scores :{
             week1 : 23,
@@ -82,7 +80,7 @@ export  const datas = [
     {
         fullName: 'Croocs Fred',
         path : 'Backend  ',
-        image :'gfhj' ,
+        image :'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlJTIwcHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' ,
         Dob : '23-01-1998',
         scores :{
             week1 : 23,
@@ -97,7 +95,7 @@ export  const datas = [
     {
         fullName: 'Ford Max',
         path : 'Product Design ',
-        image :'gfhj' ,
+        image :'https://images.unsplash.com/photo-1581403341630-a6e0b9d2d257?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGVvcGxlJTIwcHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' ,
         Dob : '23-01-1988',
         scores :{
             week1 : 67,

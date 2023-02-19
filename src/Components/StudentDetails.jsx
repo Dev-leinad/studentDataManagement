@@ -1,32 +1,8 @@
-import React,{useState, useContext} from 'react';
-import { LeaderBoardContext } from '../Context/Context';
-import Provider from '../Context/Provider';
-import Scores, { datas } from './Scores'
+import React from 'react';
+// import { LeaderBoardContext } from '../Context/Context';
+import  { datas } from './Scores'
 
 
-
-// const StudentScores = (props) => {
-
-  
-//   const {data} =props;
-  
-//   // const renderTableData =()=>{
-   
-//   //   if (data.length !==0){ 
-//   //     data?.map((items, index)=>{
-
-//   //       console.log(items)
-//   //       return  (
-//   //       <th>{items.fullName}s</th>
-       
-//   //     )
-
-//   //     })
-     
-//   //   }
-//   // }
-
-// }
 
 const StudentDetails = () => {
     
@@ -67,35 +43,22 @@ const StudentDetails = () => {
   </thead>
   <tbody>
 
-  
-    {/* <tr>
-      <td>January</td>
-      <td>$100</td>
-    </tr>
     <tr>
-      <td>February</td>
-      <td>$80</td>
-    </tr> */}
+    <td>{value.scores.week1} </td>
+      <td> {value.scores.week2}</td>
+      <td>{value.scores.week3}</td>
+      <td>{value.scores.week4}</td>
+      <td>{value.scores.week5}</td>
+      <td>{value.scores.week6}</td>
+    </tr>
+
+  
+   
   </tbody>
 </table>
 
 
 
-       {/* <table>
-  <thead>
-    <tr>
-      <th>Week 1</th>
-      <th>Week 2</th>
-      <th>Week 3</th>
-      <th>Week 4</th>
-    </tr>
-     {/* <tr> { renderTableData()}</tr> */}
-  {/* </thead>
-  <tbody style={{backgroundcolor:'red', height:'50px',width:'100%', border:'1px solid black'}}> */}
-  
-{/*    
-  </tbody>
-</table> */} 
     </div>
              
         </div>
